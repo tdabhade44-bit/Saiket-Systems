@@ -1,0 +1,20 @@
+STEP 7: CODE KA SIMPLE EXPLANATION
+🔸 requests.get(url)
+
+👉 Website ka HTML data laata hai
+
+🔸 BeautifulSoup(response.text, "html.parser")
+
+👉 HTML ko readable structure me convert karta hai
+
+🔸 find_all("h3")
+
+👉 BBC me headlines mostly <h3> tag me hoti hain
+
+🔸 get_text()
+
+👉 HTML tag ke andar ka text nikalta hai
+
+🔸 try-except
+
+👉 Error handle karta hai (internet issue / website down)
